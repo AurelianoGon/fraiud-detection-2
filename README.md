@@ -115,7 +115,7 @@ Modelagem: Implementamos os algoritmos de Machine Learning: **Random Forest**, p
 Avaliação e Otimização: Avaliamos o desempenho dos modelos usando métricas como precisão, recall e F1-score, curva ROC. Otimizamos os modelos para melhorar sua eficácia na detecção de fraudes.
 
 ## Resultados
-O modelo desenvolvido demonstrou uma alta precisão e **acurácia** na detecção de fraudes, superando abordagens tradicionais e proporcionando uma significativa redução nas perdas financeiras devido a atividades fraudulentas. Ele é capaz de identificar padrões complexos e sutis que indicam potenciais transações fraudulentas, permitindo uma ação rápida e eficaz para mitigar riscos.
+**O modelo desenvolvido demonstrou uma alta precisão e **acurácia** na detecção de fraudes, superando abordagens tradicionais e proporcionando uma significativa redução nas perdas financeiras devido a atividades fraudulentas. Ele é capaz de identificar padrões complexos e sutis que indicam potenciais transações fraudulentas, permitindo uma ação rápida e eficaz para mitigar riscos.**
 
 
 ## Contribuição
