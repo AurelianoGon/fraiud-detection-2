@@ -40,7 +40,8 @@ E para uma compreensão melhor dos dados, cada variável foi plotada.
 
 ***** Descrever esse
 
-![image](https://github.com/user-attachments/assets/6a5e5126-b9af-4fbe-baff-6f8fa950a6ed)
+![image](https://github.com/user-attachments/assets/01967d18-af71-43f1-999a-0efebdb47180)
+
 
 - Logo, na variável (valor_compra) observou-se que os valores das compras possuem um valor razoável, apresentando os máximos de R$ 100,00.
 
