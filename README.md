@@ -38,6 +38,7 @@ E para uma compreensão melhor dos dados, cada variável foi plotada.
 
 ![image](https://github.com/user-attachments/assets/aaacfb3c-a85b-462a-bb73-a2d9428c5e30)
 
+![image](https://github.com/user-attachments/assets/6345298a-db7b-4462-a980-ee17c69671fb)
 - Logo, na variável (valor_compra) observou-se que os valores das compras possuem um valor razoável, apresentando os máximos de R$ 100,00.
 
 ![image](https://github.com/user-attachments/assets/a78d4c42-e5a9-4b0d-a18c-05c9c783837c)
@@ -81,6 +82,8 @@ E para uma compreensão melhor dos dados, cada variável foi plotada.
 
 
 ![image](https://github.com/user-attachments/assets/9598999e-94e0-4bae-8314-ad5ad80e1504)
+
+
 
 - Outro aspecto relevante desta análise foi a constatação de que apenas 0,04862% das transações foram identificadas como fraudulentas, ou seja, detectar as fraudes foi um desafio, de fato. Em razão disso, averiguou-se um desequilíbrio nos dados – uma situação comum nos 
 eventos financeiros.
