@@ -14,24 +14,37 @@ Os dados utilizados neste projeto consistem em um conjunto de transações finan
 Análise Exploratória de Dados: Exploramos os dados para entender sua distribuição, identificar padrões e anomalias que possam indicar atividades fraudulentas.
 
 Pré-processamento de Dados: Antes da construção de um modelo analítico, técnicas de engenharia são indispensáveis para a aquisição de conhecimento sobre o caso a resolver. Eeste momento é crucial para que o modelo apresente resultados satisfatórios. Para atingir esse objetivo, a princípio seis variáveis qualitativas foram transformadas em "FACTOR'. 
+
 Essa transformação permite que o modelo trate essas variáveis de forma adequada, codificando-as como valores numéricos que representam diferentes categorias. Com isso, esperamos melhorar a precisão e a robustez das previsões do modelo, garantindo que ele capture corretamente a influência dessas variáveis qualitativas nos resultados finais.
-Em seguida, três variáveis foram foram excluídas, pois ao analisá-las, verificou-se que elas não seriam necessárias para a construção do modelo. Na sequência, técnicas de remoção de valores ausentes, tratamento de dados 
+Em seguida, duas variáveis foram foram excluídas, pois ao analisá-las, verificou-se que elas não seriam necessárias para a construção do modelo. Na sequência, técnicas de remoção de valores ausentes, tratamento de dados 
 duplicados e nulos, “outliers” foram aplicadas e  foi possível constatar que os dados estavam bem coletados e organizados. 
 
-Logo depois, a atenção foi direcionada para algumas variáveis que não possuíam o formato adequado para a análise de um modelo supervisionado, por isso a técnica que 
-representa dados categóricos como binários, conhecida como “one-hot encoding” foi aplicada para assegurar a representação numérica adequada. 
-Dessa forma, as preditoras listadas abaixo foram submetidas a técnica referida para 
-otimizar a resposta do modelo.
+Logo depois, a atenção foi direcionada para algumas variáveis que não possuíam o formato adequado para a análise de um modelo supervisionado, por isso a técnica que representa dados categóricos como binários, conhecida como “one-hot encoding” foi aplicada para assegurar a representação numérica adequada. 
+Dessa forma, as preditoras listadas abaixo foram submetidas a técnica referida para otimizar a resposta do modelo.
 • entrega_doc_1;
 • entrega_doc_2;
 • entrega_doc_3.
 
 ## Análise Descritiva
-
 - Após a realização de algumas etapas importantes do pré-processamento, iniciou-se uma análise descritiva com o objetivo de explorar e resumir as observações iniciais, a fim de compreender os padrões e características presentes nos dados. 
-E para uma compreensão melhor dos dados, cada variável foi plotada.
+E para uma compreensão melhor dos dados, cada variável foi plotada, seguem análises na imagem abaixo.
 
 ![image](https://github.com/user-attachments/assets/e9177afd-0c37-4617-86a3-2f198fe66cf8)
+
+
+Balanceamento doa dataset, pois a distribuição não está equilibrada
+( COLOCAR ESSE Grafico dos dados balanceados
+![image](https://github.com/user-attachments/assets/c1eda16f-f28e-485e-a994-be33bb863bad)
+ADD TREINO E TESTE (PARTIÇÃO DO BANCO DE DADOS) PARA TREINO E TESTE
+COLOCAE OS HIPERPARAMETROS E QUE FOI TUNADO unando a random forest / criar o grid de hiperparametros
+VALIDAÇÃO CRUZADA 
+RANDOM FOREST
+GERANDO A IMPORTANCIA DAS VARIÁVEIS 
+PREDIÇÃO NA BASE DE TREINO E TESTE
+
+
+
+
 
 
 - Verificou-se na variável (pais) que a liderança em compras foi do Brasil (BR) entre os 52 países que fazem parte do conjunto de dados, seguido pela Argentina (AR) e Uruguay (UY) em terceiro.
